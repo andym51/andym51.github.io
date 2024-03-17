@@ -70,6 +70,37 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    #profilePicture, #profilePicture img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #userName {
+        font-size: 24px;
+    }
+
+    .link {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding: 20px 30px;
+    }
+
+    #footer {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #links {
+        max-width: 800px;
+    }
+}
+
 @media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
